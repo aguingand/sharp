@@ -1,8 +1,18 @@
 <script lang="ts" setup>
 import { type HTMLAttributes, computed } from 'vue'
 import { CalendarRoot, type CalendarRootEmits, type CalendarRootProps, useForwardPropsEmits } from 'radix-vue'
-import { CalendarCell, CalendarCellTrigger, CalendarGrid, CalendarGridBody, CalendarGridHead, CalendarGridRow, CalendarHeadCell, CalendarHeader, CalendarHeading, CalendarNextButton, CalendarPrevButton } from '.'
 import { cn } from '@/utils/cn'
+import CalendarPrevButton from "@/components/ui/calendar/CalendarPrevButton.vue";
+import CalendarHeader from "@/components/ui/calendar/CalendarHeader.vue";
+import CalendarNextButton from "@/components/ui/calendar/CalendarNextButton.vue";
+import CalendarGrid from "@/components/ui/calendar/CalendarGrid.vue";
+import CalendarGridHead from "@/components/ui/calendar/CalendarGridHead.vue";
+import CalendarGridRow from "@/components/ui/calendar/CalendarGridRow.vue";
+import CalendarHeadCell from "@/components/ui/calendar/CalendarHeadCell.vue";
+import CalendarCellTrigger from "@/components/ui/calendar/CalendarCellTrigger.vue";
+import CalendarHeading from "@/components/ui/calendar/CalendarHeading.vue";
+import CalendarGridBody from "@/components/ui/calendar/CalendarGridBody.vue";
+import CalendarCell from "@/components/ui/calendar/CalendarCell.vue";
 
 const props = defineProps<CalendarRootProps & { class?: HTMLAttributes['class'] }>()
 

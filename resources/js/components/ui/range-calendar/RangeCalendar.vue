@@ -1,7 +1,17 @@
 <script lang="ts" setup>
 import { type HTMLAttributes, computed } from 'vue'
 import { RangeCalendarRoot, type RangeCalendarRootEmits, type RangeCalendarRootProps, useForwardPropsEmits } from 'radix-vue'
-import { RangeCalendarCell, RangeCalendarCellTrigger, RangeCalendarGrid, RangeCalendarGridBody, RangeCalendarGridHead, RangeCalendarGridRow, RangeCalendarHeadCell, RangeCalendarHeader, RangeCalendarHeading, RangeCalendarNextButton, RangeCalendarPrevButton } from '.'
+import RangeCalendarPrevButton from "@/components/ui/range-calendar/RangeCalendarPrevButton.vue";
+import RangeCalendarHeader from "@/components/ui/range-calendar/RangeCalendarHeader.vue";
+import RangeCalendarNextButton from "@/components/ui/range-calendar/RangeCalendarNextButton.vue";
+import RangeCalendarGrid from "@/components/ui/range-calendar/RangeCalendarGrid.vue";
+import RangeCalendarGridHead from "@/components/ui/range-calendar/RangeCalendarGridHead.vue";
+import RangeCalendarGridRow from "@/components/ui/range-calendar/RangeCalendarGridRow.vue";
+import RangeCalendarHeadCell from "@/components/ui/range-calendar/RangeCalendarHeadCell.vue";
+import RangeCalendarCellTrigger from "@/components/ui/range-calendar/RangeCalendarCellTrigger.vue";
+import RangeCalendarHeading from "@/components/ui/range-calendar/RangeCalendarHeading.vue";
+import RangeCalendarGridBody from "@/components/ui/range-calendar/RangeCalendarGridBody.vue";
+import RangeCalendarCell from "@/components/ui/range-calendar/RangeCalendarCell.vue";
 import { cn } from '@/utils/cn'
 
 const props = defineProps<RangeCalendarRootProps & { class?: HTMLAttributes['class'] }>()

@@ -10,7 +10,7 @@ import {
   useForwardPropsEmits,
 } from 'radix-vue'
 import { X } from 'lucide-vue-next'
-import { type SheetVariants, sheetVariants } from '.'
+import { type SheetVariants, sheetVariants } from './variants'
 import { cn } from '@/utils/cn'
 
 interface SheetContentProps extends DialogContentProps {

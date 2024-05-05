@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import { type HTMLAttributes, computed } from 'vue'
+    import { type HTMLAttributes, computed } from 'vue'
 import {
   DialogClose,
   DialogContent,
   type DialogContentEmits,
   type DialogContentProps,
-  DialogOverlay,
   DialogPortal,
   useForwardPropsEmits,
 } from 'radix-vue'

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from 'vue'
-import { type BadgeVariants, badgeVariants } from '.'
+import { type BadgeVariants, badgeVariants } from './variants'
 import { cn } from '@/utils/cn'
 import { Primitive } from "radix-vue";
 
